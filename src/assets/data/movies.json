@@ -1,0 +1,42 @@
+[
+    {
+      "id":1,
+      "name": "The Wolf", 
+      "genre":"Romance",
+      "producer":"Lanre Bob",
+      "imageUrl":"/assets/bg.jpg", 
+      "director":"Stephen Spielberg", 
+      "year":2019,
+      "rating":"A"
+    },
+    {
+      "id":2, 
+      "name": "The Fringe", 
+      "genre":"SciFi",
+      "producer":"Bob Smith",
+      "imageUrl":"/assets/bg.jpg", 
+      "director":"Stephen Spielberg", 
+      "year":2018,
+      "rating":"C"
+    },
+    {
+      "id":3, 
+      "name": "Men In Black",
+      "genre":"Romance",
+      "producer":"Tade Ogidan",
+      "imageUrl":"/assets/bg3.jpg",
+      "director":"Stephen Spielberg", 
+      "year":2019,
+      "rating":"B"
+    },
+    {
+      "id":4, 
+      "name": "Assylum", 
+      "genre":"SciFi",
+      "producer":"James Maddison",
+      "imageUrl":"/assets/bg3.jpg", 
+      "director":"Stephen Spielberg", 
+      "year":2019,
+      "rating":"A"
+    }
+  ]

@@ -1,0 +1,22 @@
+<div class="container">
+    <img [src]="movie?.imageUrl" [alt]="movie?.name" class="movie-image">
+    
+    <div class="row">
+        <div class="col-md-11">
+        <h2>{{movie?.name}} </h2>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-md-6">
+        <div><strong>Producer:</strong> {{movie?.producer}}</div>
+        <div><strong>Director:</strong> {{movie?.director}}</div>
+        <div><strong>Release:</strong> {{movie?.year}}</div>
+        <div><strong>Actors:</strong> {{movie?.actors}}</div>
+        <div><strong>Runtime:</strong> {{movie?.runtime}}</div>
+        <div><strong>Rating:</strong> {{movie?.rating}}</div>
+        <div><strong>Genre:</strong> {{movie?.genre}}</div>
+        </div>
+        <div class="col-md-6"></div>
+    </div>
+</div>
