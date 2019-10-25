@@ -14,6 +14,7 @@ import { Error404Component } from './errors/404.component';
 import { MovieRouteActivator } from './movies/movie-details/movie-route-activator.service';
 import { MovieListResolver } from './movies/movies-list-resolver.service';
 import { AuthService } from './user/auth.service';
+import { DewsComponent } from './dews/dews.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { AuthService } from './user/auth.service';
     MovieDetailsComponent,
     MovieDetailsComponent,
     Error404Component,
+    DewsComponent,
   ],
   imports: [
     BrowserModule,
