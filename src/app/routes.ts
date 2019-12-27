@@ -8,7 +8,7 @@ import { MovieListResolver } from './movies/movies-list-resolver.service';
 export const movieRoutes:Routes = [
     {path:'movies', component: MovieListComponent, resolve:{movies:MovieListResolver}},
     {path:'movies/:id', component: MovieDetailsComponent, canActivate:[MovieRouteActivator]},
-    {path:'404', component: Error404Component},
+    {path:'user', loadChildren: './user/user.module#UserModule'},
     {path:'', redirectTo:'/movies', pathMatch:'full'},
-    {path:'user', loadChildren: './user/user.module#UserModule'}
+    {path:'**', component: Error404Component}
 ]

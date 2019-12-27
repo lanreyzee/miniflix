@@ -3,10 +3,13 @@ import { IMovie } from './shared/movie';
 
 @Component({
     selector:'movie-thumbnail',
-    template:`<div class="card" [routerLink]="['/movies', movie.id]">
+    template:`
+                <div class="card-deck">
+                <div class="card" [routerLink]="['/movies', movie.id]">
                 <div class="card-body">
                 <img [src]="movie?.imageUrl" alt="movie?.name" class="card-img-top movie-image">
                     <h4 class="card-title text-center">{{movie.name }} ({{movie.release}})</h4>
+                </div>
                 </div>
                 </div>
             `,

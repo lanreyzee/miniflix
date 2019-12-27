@@ -1,4 +1,6 @@
-import { Component } from '@angular/core'
+import { Component, OnInit } from '@angular/core';
+import { Title } from '@angular/platform-browser';
+
 
 @Component({
   template: `
@@ -13,9 +15,11 @@ import { Component } from '@angular/core'
       text-align: center; 
     }`]
 })
-export class Error404Component{
-  constructor() {
+export class Error404Component implements OnInit{
+  constructor(private title:Title) {
 
   }
-
+  ngOnInit(){
+    this.title.setTitle('Miniflix -- Not Found')
+  }
 }
